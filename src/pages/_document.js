@@ -36,7 +36,7 @@ class MyDocument extends Document {
                 process.env.NODE_ENV === "development"
                   ? "http://localhost:9081/aicactus-sdk.development.min.js"
                   : "https://cdn.aicactus.io/aicactus-sdk.min.js"
-              }",b.addEventListener?b.addEventListener("load",function(b){"function"==typeof a&&a(b)},!1):b.onreadystatechange=function(){("complete"==this.readyState||"loaded"==this.readyState)&&a(window.event)};let c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)},AicactusSDK.load(function(){AicactusSDK.initialize({containerId:"808c62a2-5ca8-45d4-96b1-e6ee1cc48817@web"}),AicactusSDK.callMethodsFromContainer()});`,
+              }",b.addEventListener?b.addEventListener("load",function(b){"function"==typeof a&&a(b)},!1):b.onreadystatechange=function(){("complete"==this.readyState||"loaded"==this.readyState)&&a(window.event)};let c=document.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)},AicactusSDK.load(function(){AicactusSDK.initialize({containerId:"808c62a2-5ca8-45d4-96b1-e6ee1cc48817@web", env: 'staging'}),AicactusSDK.callMethodsFromContainer()});`,
             }}
           ></script>
         </Head>
